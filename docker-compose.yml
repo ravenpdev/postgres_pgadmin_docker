@@ -16,7 +16,7 @@ services:
       - pg-network
   postgres:
     restart: always
-    image: postgres:latest
+    image: postgres:alpine
     container_name: "postgres_container"
     ports:
       - "5432:5432"
